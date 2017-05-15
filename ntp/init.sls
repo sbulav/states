@@ -1,6 +1,9 @@
 # Include :download:`map file <map.jinja>` of OS-specific package names and
 # file paths. Values can be overridden using Pillar.
 {% from "ntp/map.jinja" import ntp with context %}
+include:
+  - ntp.pkgs_absent
+  - ntp.ntpdate
 
 ntp:
   pkg.installed:
