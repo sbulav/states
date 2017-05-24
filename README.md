@@ -1,3 +1,4 @@
 # states
-My Salt states
-This is only for learning, please check twice before using in production!
+My Salt states.<br>
+
+All states are for learning, please check twice before using in production!
